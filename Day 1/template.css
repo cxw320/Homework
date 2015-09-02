@@ -1,0 +1,49 @@
+body {
+	color: #5C5E5D;
+	font-family:avenir;
+
+}
+
+header {
+	position: relative;
+	top: 20px;
+	left:290px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+
+}
+
+.name {
+	font-size:65px;
+	font-style: bold;
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+.title {
+	left:400px;
+	font-size:35px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+.RESUME {
+	position: absolute;
+	left:550px;
+}
+
+.harvardtitle {
+	padding:0px;
+	margin:0px;
+}
+
+img {
+	position: absolute;
+	left: 350px;
+	top: 140px;
+}
+
+
