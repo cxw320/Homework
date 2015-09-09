@@ -9,7 +9,7 @@ body {
 
 header {
 	font-family: helvetica;
-	border: 5px solid green;
+
 }
 
 header div p{
@@ -20,8 +20,13 @@ header div p{
 	
 }
 
+.Objective p {
+	font-family: Times;
+	word-spacing: 3px;
+	line-height: 120%;
+}
+
 .links {
-	border: 5px solid red;
 	height: 40px;
 	width: 200px;
 	position: relative;
@@ -29,14 +34,12 @@ header div p{
 }
 
 .Name {
-	border: 5px solid blue;
 	width: 300px;
 	margin: auto;
 }
 
 .Name h1 {
 	width: 240px;
-	border: 5px solid pink;
 	position: relative;
 	margin: auto;
 
@@ -52,16 +55,26 @@ header div p{
 
 }
 
-.Portfolio .helvetica {
+.helvetica {
 	font-family: helvetica;
-	font-style: italic;
-	border: 5px solid purple;
-	width: 120px;
-	height: 10px;
+	display:inline;
 
-} 
+}
 
+.small {
+	font-family: helvetica;
+	display: inline;
+	font-size: 13px;
+}
 
+.text {
+	padding: 0px;
+	margin: 0px;
+}
+
+.Education h2{
+	font-family:helvetica;
+}
 
 
 
