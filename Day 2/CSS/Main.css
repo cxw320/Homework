@@ -1,10 +1,67 @@
 body {
 	border-top: 5px solid #222222;
 	border-bottom: 5px solid #222222;
+	width: 800px;
+	position: relative;
+	margin: auto;
+	margin-top: 15px;
 }
 
 header {
 	font-family: helvetica;
-	position: relative;
+	border: 5px solid green;
+}
+
+header div p{
+	float: left;
+	margin: 1px;
+	margin-left: 10px;
+	margin-top: 20px;
 	
 }
+
+.links {
+	border: 5px solid red;
+	height: 40px;
+	width: 200px;
+	position: relative;
+	margin: auto;
+}
+
+.Name {
+	border: 5px solid blue;
+	width: 300px;
+	margin: auto;
+}
+
+.Name h1 {
+	width: 240px;
+	border: 5px solid pink;
+	position: relative;
+	margin: auto;
+
+}
+
+.Experience h2 {
+	font-family: helvetica;
+}
+
+
+.Portfolio h2 {
+	font-family: helvetica;
+
+}
+
+.Portfolio .helvetica {
+	font-family: helvetica;
+	font-style: italic;
+	border: 5px solid purple;
+	width: 120px;
+	height: 10px;
+
+} 
+
+
+
+
+
