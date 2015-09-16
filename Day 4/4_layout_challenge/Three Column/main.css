@@ -1,0 +1,45 @@
+body {
+	margin: auto;
+	width: 50%;
+}
+
+header {
+	margin: 10% 0% 1% 0%;
+	border: 1px solid red;
+	height: 100px;
+	width: 100%;
+	
+}
+
+.box-one {
+	float: left;
+	border: 1px solid orange;
+	height: 350px;
+	width: 16%;
+	margin: 1% 1% 2% 0%;
+
+}
+
+.box-two {
+	float: left;
+	border: 1px solid green;
+	height: 350px;
+	width: 64%;
+	margin: 1% 1% 2% 1%;
+}
+
+.box-three {
+	float: left;
+	border: 1px solid blue;
+	width: 15%;
+	height: 350px;
+	margin: 1% 0% 2% 1%;
+	
+}
+
+footer {
+	clear: both;
+	border: 1px solid purple;
+	height: 100px;
+	width: 100%;
+}

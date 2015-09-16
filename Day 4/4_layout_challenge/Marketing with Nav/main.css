@@ -1,0 +1,112 @@
+body {
+	margin: auto;
+	width: 599px;
+	/*border: 5px solid red;*/
+	margin-top: 20px;
+	
+}
+
+/*header {
+	margin: 10% 0% 1% 0%;
+	border: 1px solid red;
+	height: 100px;
+	width: 98.5%;
+	
+}*/
+
+.box-one {
+	float:left;
+	border: 1px solid orange;
+	height: 100px;
+	width: 23%;
+	margin: 0% 0% 2% 0%;
+
+}
+
+.container-right {
+	float: right;
+	/*border: 1px solid red;*/
+	height: 100px;
+	width: 69%;
+
+}
+
+.box-two {
+	float: left;
+	border: 1px solid red;
+	height: 30px;
+	width: 23%;
+	margin: 8% 1% 30% 1%;
+}
+
+.box-three {
+	float: left;
+	border: 1px solid red;
+	height: 30px;
+	width: 23%;
+	margin: 8% 1% 30% 1%;
+}
+
+.box-four {
+	float: left;
+	border: 1px solid red;
+	height: 30px;
+	width: 23%;
+	margin: 8% 1% 30% 1%;
+}
+
+.box-five {
+	float: left;
+	border: 1px solid red;
+	height: 30px;
+	width: 22%;
+	margin: 8% 0% 30% 1%;
+}
+
+.box-six {
+	clear: both;
+	border: 1px solid green;
+	height: 200px;
+	width: 30%;
+}
+
+/*WHATS GOING ON THE WIDTH IN BOX SIX*/
+
+.box-six {
+	clear: both;
+	border: 1px solid green;
+	height: 200px;
+	width: 100%;
+
+}
+
+.box-seven {
+	float: left;
+	border: 1px solid blue;
+	height: 115px;
+	width: 31.5%;
+	margin: 2% 1% 2% 0%;
+}
+
+.box-eight {
+	float: left;
+	border: 1px solid blue;
+	height: 115px;
+	width: 31.5%;
+	margin: 2% 1% 2% 1%;
+}
+
+.box-nine {
+	float: left;
+	border: 1px solid blue;
+	height: 115px;
+	width: 31.5%;
+	margin: 2% 0% 2% 1%;
+}
+
+footer {
+	clear: both;
+	border: 1px solid purple;
+	height: 100px;
+	width: 99%;
+}

@@ -1,0 +1,35 @@
+body {
+	width: 700px;
+	margin: auto;
+	margin-top: 50px;
+}
+header {
+	border: 5px solid red;
+	height: 100px;
+	margin-bottom:5px;
+}
+
+.box-one {
+	border: 5px solid blue;
+	height: 240px;
+	width: 480px;
+	float: left;
+	margin: 5px 5px 10px 0px;
+}
+
+.box-two {
+	border: 5px solid green;
+	float: left;
+	height: 240px;
+	width: 190px;
+	margin: 5px 0px 10px 5px;
+
+}
+
+.footer {
+	clear: both;
+	height: 100px;
+	width: 690px;
+	border: 5px solid orange;
+	
+}

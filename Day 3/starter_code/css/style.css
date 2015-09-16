@@ -100,6 +100,14 @@ header h2 {
 	height:220px;
 }
 
+.Quote p {
+	border: 5px solid red;
+	width: 300px;
+	text-align: center;
+	margin: 25px;
+	margin-top: 50px;
+}
+
 
 
 .yellow {
@@ -120,3 +128,5 @@ footer {
 	color:white;
 	padding:0px;
 }
+
+
