@@ -31,12 +31,12 @@ header h2 {
 	text-align:center;
 }
 
-.Relaxr {
-	font-size: 24px;
+.relaxr {
+	font-size: 20px;
 	font-weight: 600;
 	color:white;
 	width:200px;
-	margin-left: 48px;
+	margin: 20px 48px;
 
 }
 
@@ -89,44 +89,91 @@ header h2 {
 	color: #606161;
 }
 
-.Quote {
+.quote {
 	font-family: 'Open Sans',sans-serif;
-	font-size:13px;
-	font-weight:300;
-	font-style:italic;
 	background-image: url("../images/testimonial_bg.jpg");
-	color:white;
-	padding:0px;
-	height:220px;
+	color:lightgrey;
+	padding:30px 30px 30px 30px;
+
 }
 
-.Quote p {
-	border: 5px solid red;
-	width: 300px;
+.quote p{
+	width: 280px;
 	text-align: center;
-	margin: 25px;
-	margin-top: 50px;
+	margin:auto;
+	font-size: 15px;
+
 }
 
+/*how to justify center??*/
+ 
+#text {
+	font-style:italic;
+}
+
+#amanda {
+	border: 0px;
+	margin-top:0px;
+	font-weight:600;
+	font-size: 15px;
+}
 
 
 .yellow {
 	background-color:#f9e42e;
-	padding:0px;
-	margin:0px;
+	padding:3px;
 }
 
-nav p {
-	font-family: 'Open Sans',sans-serif;
-	font-size:9px;
-	font-weight:300;
-	padding:0px;
+.signup {
+	background-color:#033048;
+	width: 130px;
+	margin:auto;
+	text-align:center;
 }
+
+.signup p {
+	color: white;
+	font-size: 12px;
+	font-weight:600;
+	padding: 4px 4px;
+}
+
+
 
 footer {
 	background-color:#121212;
 	color:white;
-	padding:0px;
+
 }
+
+#relaxr {
+	font-size: 20px;
+	font-weight: 600;
+	text-align:center;
+	margin:auto;
+	color:#f9e42e;
+}
+
+
+}
+footer img{
+	border:1px red solid;
+	display:inline;
+	height:10px;
+
+}
+
+
+}
+
+footer div {
+	font-family: 'Open Sans',sans-serif;
+	font-size:2px;
+	font-weight:300;
+	border: 1px solid black;
+
+}
+
+/*why isn't the css for footer imgs and copy right text not working?*/
 
 
