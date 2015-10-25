@@ -1,0 +1,34 @@
+.container {
+	font-family:Tinos;
+	border: 1px solid black;
+	width: 70%;
+	margin: auto;
+	margin-top: 4%;
+}
+
+header {
+	margin:auto;
+	text-align: center;
+}
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	padding:0px;
+	margin: 0px;
+	border: 1px solid black;
+
+}
+
+h2 {
+	font-size: 30px;
+	padding:0px;
+	margin: 0px;
+	padding:0px;
+	border: 1px solid black;
+}
+
+header h3 {
+	padding:0px;
+	margin: 0px;
+	font-size: 20px;
+}
