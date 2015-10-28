@@ -1,0 +1,107 @@
+body {
+	background-color: black;
+}
+
+.container {
+	font-family:Radley;
+	border: 1px solid black;
+	width: 780px;
+	margin: auto;
+	margin-top: 4%;
+	background-color: white;
+}
+
+header {
+	margin:auto;
+	text-align: center;
+	padding: 12px 0px 0px 0px;
+	margin: 0px;
+}
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	padding:0px;
+	margin: 0px;
+
+
+}
+
+h2 {
+	font-size: 30px;
+	padding:0px;
+	margin: 0px;
+	padding:0px;
+
+}
+
+.info p{
+	padding: 0px;
+	margin: 0px;
+}
+
+header h3 p {
+	padding:0px;
+	margin: 0px;
+	font-size: 20px;
+}
+
+.title {
+	font-size: 22px;
+}
+
+.skills {
+	width: 80%;
+	margin: auto;
+
+
+}
+
+.column1{
+	float: left;
+	width: 45%;
+}
+
+.column2 {
+	float: right;
+	width: 35%;
+
+}
+
+.experience {
+	padding-top: 130px;
+	width: 80%;
+	margin:auto;
+}
+
+
+
+.company p:first-child {
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	font-style:italic;
+}
+
+.company p:nth-child(2){
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+	width: 80%;
+	margin: auto;
+}
+
+footer p {
+	padding:0px;
+	margin: 0px;
+}
+
+.college {
+	margin: 20px 0px 20px 0px;
+}
+
+.award {
+	margin-bottom: 30px;
+}
+

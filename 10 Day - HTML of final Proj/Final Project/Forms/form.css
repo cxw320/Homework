@@ -1,0 +1,150 @@
+.container {
+	background-color: #dee0e0;
+	margin:auto;
+	width:40%;
+	border: 1px solid black;
+	text-align: center;
+	font-family: calibri;
+	font-size: 30px;
+}
+
+
+.resumeme{
+	font-size: 30px;
+	padding: 0px;
+	margin: 0px;
+}
+
+form {
+	margin: 10px;
+}
+
+form div {
+	width: 20px;
+	height: 7px;
+	border: solid 1px black;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+}
+
+
+.resume {
+	font-family:Radley;
+	border: 1px solid black;
+	width: 780px;
+	margin: auto;
+	margin-top: 4%;
+	background-color: white;
+}
+
+header {
+	margin:auto;
+	text-align: center;
+	padding: 12px 0px 0px 0px;
+	margin: 0px;
+}
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	padding:0px;
+	margin: 0px;
+
+
+}
+
+h2 {
+	font-size: 30px;
+	padding:0px;
+	margin: 0px;
+	padding:0px;
+
+}
+
+.info p{
+	padding: 0px;
+	margin: 0px;
+	font-size:15px;
+}
+
+header h3 p {
+	padding:0px;
+	margin: 0px;
+	font-size: 20px;
+}
+
+.title {
+	font-size: 22px;
+}
+
+.skills {
+	width: 80%;
+	margin: auto;
+
+
+}
+
+.column1{
+	float: left;
+	width: 45%;
+}
+
+.column2 {
+	float: right;
+	width: 35%;
+
+}
+
+.experience {
+	padding-top: 130px;
+	width: 80%;
+	margin:auto;
+}
+
+
+
+.company p:first-child {
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	font-style:italic;
+}
+
+.company p:nth-child(2){
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+	width: 80%;
+	margin: auto;
+}
+
+footer p {
+	padding:0px;
+	margin: 0px;
+}
+
+.college {
+	margin: 20px 0px 20px 0px;
+}
+
+.award {
+	margin-bottom: 30px;
+}
+
+.menu {
+	border: 1px solid black;
+	margin: auto;
+}
+
+.menu div {
+	margin: auto;
+
+}
+
+.form1 {
+	font-size: 15px;
+
+}
