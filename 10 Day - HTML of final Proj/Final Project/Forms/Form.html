@@ -3,6 +3,8 @@
 	<title> Resume Generator</title>
 	<link rel="stylesheet" type="text/css" href="form.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Radley:400,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="forms.css">
 	
 </head>
 
@@ -10,25 +12,108 @@
 
 	<div class="container">
 
-		<p> EDIT MY....</P>
 
-		<div class="menu">
-			<div class="menuItem1"> 
-				<p>NAME</p>
-			</div>
+			
 
-			<form class="form1">
 
-			  Name:<br>
-			  <input type="text" name="name">
-			  <br>
-			  Position:<br>
-			  <input type="text" name="position">
-			  Email:<br>
-			  <input type="text" name="email">
-			  Cell:<br>
-			  <input type="text" name="cell">
-			  Address:<br>
+			<form class="form-horizontal">
+
+			
+			<p class="menuLabel"> Name </p>
+
+			  <div class="form-group" class="menuLabel">
+				<label for="inputName" class="col-sm-2 control-label">Name</label>
+			    <div class="col-sm-10">
+			      <input type="Name" class="form-control" id="inputName" placeholder="Name">
+			    </div>
+			  </div>
+
+
+
+			  <div class="form-group" class="menuLabel">
+				<label for="inputJobTitle" class="col-sm-2 control-label">Job Title</label>
+			    <div class="col-sm-10">
+			      <input type="jobTitle" class="form-control" id="inputJobTitle" placeholder="Job Title">
+			    </div>
+			  </div>
+
+
+			  <div class="form-group" class="menuLabel">
+			    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+			    <div class="col-sm-10">
+			      <input type="Email" class="form-control" id="inputEmail" placeholder="Email">
+			    </div>
+			  </div>
+
+
+			 <div class="form-group" class="menuLabel">
+			    <label for="inputCell" class="col-sm-2 control-label">Phone Number</label>
+			    <div class="col-sm-10">
+			      <input type="Email" class="form-control" id="inputEmail" placeholder="Email">
+			    </div>
+			 </div>
+
+			 <div class="form-group" class="menuLabel">
+			    <label for="inputAddress" class="col-sm-2 control-label">Address</label>
+			    <div class="col-sm-10">
+			      <input type="Address" class="form-control" id="inputAddress" placeholder="Address">
+			    </div>
+			 </div>
+
+
+			 
+
+			<div class="skillsummary">
+				<p class="menuLabel"> Skill Summary </p>
+
+			  <div class="form-group">
+			    <label for="inputName" class="col-sm-2 control-label">Name</label>
+			    <div class="col-sm-10">
+			      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+			    <div class="col-sm-10">
+			      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+			    </div>
+			  </div>
+
+			 
+
+			 <div class="Education"> 
+			 	<p class="menuLabel"> Education </p>
+
+			
+			  <div class="form-group">
+			    <label for="inputName" class="col-sm-2 control-label">Name</label>
+			    <div class="col-sm-10">
+			      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+			    <div class="col-sm-10">
+			      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+			    </div>
+
+			 </form>
+			
+
+			 </div>
+
+
+			<!-- <form class="form1">
+
+			  Name:
+			  <input type="text" name="name"><br>
+			  Position:
+			  <input type="text" name="position"><br>
+			  Email:
+			  <input type="text" name="email"><br>
+			  Cell:
+			  <input type="text" name="cell"><br>
+			  Address:
 			  <input type="text" name="address">
 			</form>
 
@@ -44,11 +129,11 @@
 				<p>EDUCATION</p>
 			</div>
 
-		</div>
+		</div> -->
 
 		
 
-	</div>	
+	
 
 
 	<div class="resume">
@@ -145,7 +230,15 @@
 			</div>
 
 		</footer>
+
+
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 	</div>
+
+
+
+</div>
 
 </body>
 

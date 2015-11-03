@@ -1,4 +1,4 @@
-.container {
+/*.container {
 	background-color: #dee0e0;
 	margin:auto;
 	width:40%;
@@ -28,7 +28,7 @@ form div {
 	padding: 0px;
 	font-size: 10px;
 }
-
+*/
 
 .resume {
 	font-family:Radley;
@@ -134,17 +134,58 @@ footer p {
 	margin-bottom: 30px;
 }
 
-.menu {
+/*.menu {
 	border: 1px solid black;
 	margin: auto;
 }
 
 .menu div {
-	margin: auto;
+	margin:auto;
+	border: 1px solid black;
+	padding:0px;
 
+
+}*/
+
+/*.form1 input{
+	margin-right: 5%;
 }
 
 .form1 {
 	font-size: 15px;
+	width: 60%;
+	margin: auto;
+	border: 1px solid black;
+
+}*/
+
+.menu {
+	margin: auto;
 
 }
+.form-horizontal {
+	margin: auto;
+
+	
+}
+
+.form-group {
+	border: 1px solid black;
+	width: 70%;
+	margin: auto;
+
+}
+.form-group div {
+	width: 50%;	
+	margin: auto;
+}
+
+.menuLabel {
+	border: 1px solid black;
+	width:80%;
+	text-align: center;
+	margin:auto;
+	background-color: lightgray;
+	color: black;
+}
+
