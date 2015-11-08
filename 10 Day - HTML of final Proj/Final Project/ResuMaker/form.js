@@ -434,6 +434,127 @@ $('.slideJob3').hide();
 
  	});
 
+  	$(".plusJD1B1").click(function(){
+
+ 
+ 		 $("#JD1B2").css("display","block");
+
+ 		 $(".plusJD1B1").css("display","none");
+ 		 $(".plusJD1B2").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD1B2").click(function(){
+
+ 
+ 		 $("#JD1B3").css("display","block");
+
+ 		 $(".plusJD1B2").css("display","none");
+ 		 $(".plusJD1B3").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD1B3").click(function(){
+
+ 
+ 		 $("#JD1B4").css("display","block");
+
+ 		 $(".plusJD1B3").css("display","none");
+ 		 $(".plusJD1B4").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD1B4").click(function(){
+
+ 
+ 		 $("#JD1B5").css("display","block");
+
+ 		 $(".plusJD1B4").css("display","none");
+ 		 $(".plusJD1B5").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD1B5").click(function(){
+
+ 
+ 		 $("#JD1B6").css("display","block");
+
+ 		 $(".plusJD1B5").css("display","none");
+ 		 $(".plusJD1B6").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD1B6").click(function(){
+
+ 
+ 		 $("#JD1B7").css("display","block");
+
+ 		 $(".plusJD1B6").css("display","none");
+ 	
+
+ 	});
+
+
+ 	$(".plusJD2B1").click(function(){
+
+ 
+ 		 $("#JD2B2").css("display","block");
+
+ 		 $(".plusJD2B1").css("display","none");
+ 		 $(".plusJD2B2").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD2B2").click(function(){
+
+ 
+ 		 $("#JD2B3").css("display","block");
+
+ 		 $(".plusJD2B2").css("display","none");
+ 		 $(".plusJD2B3").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD2B3").click(function(){
+
+ 
+ 		 $("#JD2B4").css("display","block");
+
+ 		 $(".plusJD2B3").css("display","none");
+ 		 $(".plusJD2B4").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD2B4").click(function(){
+
+ 
+ 		 $("#JD2B5").css("display","block");
+
+ 		 $(".plusJD2B4").css("display","none");
+ 		 $(".plusJD2B5").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD2B5").click(function(){
+
+ 
+ 		 $("#JD2B6").css("display","block");
+
+ 		 $(".plusJD2B5").css("display","none");
+ 	
+
+ 	});
+
+
 
 
  	$(".resumeTemplate2").click(function(){
