@@ -30,7 +30,7 @@ body{
 
 
 
-.resume {
+.resume1 {
 	font-family:Radley;
 	border: 1px solid black;
 	width: 780px;
@@ -39,13 +39,14 @@ body{
 	background-color: white;
 }
 
-header {
+.resume1 header {
 	margin:auto;
 	text-align: center;
 	padding: 12px 0px 0px 0px;
 	margin: 0px;
 }
-h1 {
+
+.resume1 h1 {
 	font-size: 60px;
 	font-weight: bold;
 	padding:0px;
@@ -54,7 +55,7 @@ h1 {
 
 }
 
-h2 {
+.resume1 h2 {
 	font-size: 30px;
 	padding:0px;
 	margin: 0px;
@@ -62,41 +63,41 @@ h2 {
 
 }
 
-.info p{
+.resume1 .info p{
 	padding: 0px;
 	margin: 0px;
 	font-size:15px;
 }
 
-header h3 p {
+.resume1 header h3 p {
 	padding:0px;
 	margin: 0px;
 	font-size: 20px;
 }
 
-.title {
+.resume1 .title {
 	font-size: 22px;
 }
 
-.skills {
+.resume1 .skills {
 	width: 80%;
 	margin: auto;
 
 
 }
 
-.column1{
+.resume1 .column1{
 	float: left;
 	width: 45%;
 }
 
-.column2 {
+.resume1 .column2 {
 	float: right;
 	width: 35%;
 
 }
 
-.experience {
+.resume1 .experience {
 	padding-top: 130px;
 	width: 80%;
 	margin:auto;
@@ -104,33 +105,33 @@ header h3 p {
 
 
 
-.company p:first-child {
+.resume1 .company p:first-child {
 	margin: 0px;
 	padding: 0px;
 	font-size: 15px;
 	font-style:italic;
 }
 
-.company p:nth-child(2){
+.resume1 .company p:nth-child(2){
 	margin: 0px;
 	padding: 0px;
 }
 
-footer {
+.resume1 footer {
 	width: 80%;
 	margin: auto;
 }
 
-footer p {
+.resume1 footer p {
 	padding:0px;
 	margin: 0px;
 }
 
-.college {
+.resume1 .college {
 	margin: 20px 0px 20px 0px;
 }
 
-.award {
+.resume1 .award {
 	margin-bottom: 30px;
 }
 
@@ -160,8 +161,8 @@ footer p {
 }*/
 
 
-
-.menuLabel {
+/*MULTIPLE SELECTORS FOR THE SAME FORMATTING*/
+.menuLabel1, .menuLabel2, .menuLabel3, .menuLabel4{
 	font-family:Montserrat;
 	border: .5px solid black;
 	text-align: center;
@@ -193,65 +194,9 @@ background-image: -webkit-linear-gradient(top, #E6EBF5 0%, #CEDDF5 100%);
 background-image: linear-gradient(to bottom, #E6EBF5 0%, #CEDDF5 100%);
 
 }
-.company1Label {
-	text-align: center;
-	color:#494943;
-	font-size: 20px;
-	margin: 20px;
-	border-radius:7px;
-	width: 60%;
-	margin:auto;
-	margin-bottom: 15px;
-	margin-top: 15px;
-/* IE10+ */ 
-background-image: -ms-linear-gradient(top, #EDEDED 0%, #D2D7DF 100%);
 
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #EDEDED 0%, #D2D7DF 100%);
 
-/* Opera */ 
-background-image: -o-linear-gradient(top, #EDEDED 0%, #D2D7DF 100%);
-
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EDEDED), color-stop(100, #D2D7DF));
-
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #EDEDED 0%, #D2D7DF 100%);
-
-/* W3C Markup */ 
-background-image: linear-gradient(to bottom, #EDEDED 0%, #D2D7DF 100%);
-}
-
-.company2Label {
-	text-align: center;
-	color:#494943;
-	font-size: 20px;
-	margin: 20px;
-	border-radius:7px;
-	width: 60%;
-	margin:auto;
-	margin-bottom: 15px;
-	margin-top: 15px;
-/* IE10+ */ 
-background-image: -ms-linear-gradient(top, #EDEDED 0%, #D2D7DF 100%);
-
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #EDEDED 0%, #D2D7DF 100%);
-
-/* Opera */ 
-background-image: -o-linear-gradient(top, #EDEDED 0%, #D2D7DF 100%);
-
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EDEDED), color-stop(100, #D2D7DF));
-
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #EDEDED 0%, #D2D7DF 100%);
-
-/* W3C Markup */ 
-background-image: linear-gradient(to bottom, #EDEDED 0%, #D2D7DF 100%);
-}
-
-.company3Label {
+.company1Label, .company2Label,.company3Label {
 	text-align: center;
 	color:#494943;
 	font-size: 20px;
@@ -312,7 +257,41 @@ form {
 	margin-bottom:10px;
 }
 
+.plus {
+	border: 1px solid black;
+	width: 10%;
+	margin:auto;
+
+}
+
+#form-group2, #form-group3, #form-group4, #form-group5, #form-group6, #form-group7, #form-group8{
+	display:none;
+}
 
 
 
+
+
+.change {
+	background-color: gray;
+	width: 10%;
+
+}
+
+
+
+
+.resume2 {
+	font-family:Radley;
+	border: 1px solid black;
+	width: 780px;
+	margin: auto;
+	margin-top: 4%;
+	background-color: red;
+}
+
+
+.word-export {
+	border:1px solid black;
+}
 
