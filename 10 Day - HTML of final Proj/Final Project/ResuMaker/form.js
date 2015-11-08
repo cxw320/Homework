@@ -337,20 +337,13 @@ $('.slideJob3').hide();
 // PLUS SECTION 
 
  	$(".plus").click(function(){
-
- 	if( $('#form-group3').css('display')=== 'none' &&
- 	    $('#form-group4').css('display')=== 'none' &&
- 	    $('#form-group5').css('display')=== 'none' && 
- 	    $('#form-group6').css('display')=== 'none' && 
- 	    $('#form-group7').css('display')=== 'none' && 
- 	    $('#form-group8').css('display')=== 'none'  ){
  	
  		 $("#form-group2").css("display","block");
 
  		 $(".plus").css("display","none");
  		 $(".plus3").css("display","block");
 
- 		};
+
 
  	});
 
@@ -409,8 +402,7 @@ $('.slideJob3').hide();
 
  	$(".plus8").click(function(){
 
- 	
- 		 alert(7);
+ 
  		 $("#form-group8").css("display","block");
 
  		 $(".plus8").css("display","none");
@@ -418,6 +410,31 @@ $('.slideJob3').hide();
  	
 
  	});
+
+
+
+ 	$(".plusJob1").click(function(){
+
+ 
+ 		 $(".company2Label").css("display","block");
+
+ 		 $(".plusJob1").css("display","none");
+ 		 $(".plusJob2").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJob2").click(function(){
+
+ 
+ 		 $(".company3Label").css("display","block");
+
+ 		 $(".plusJob2").css("display","none");
+ 	
+
+ 	});
+
+
 
  	$(".resumeTemplate2").click(function(){
  		$(".resume1").attr("class","resume2");
