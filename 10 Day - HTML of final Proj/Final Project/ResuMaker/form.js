@@ -498,7 +498,9 @@ $('.slideJob3').hide();
  	
 
  	});
+   
 
+   // ---JOB 2 SECTION FOR BULLETS ---
 
  	$(".plusJD2B1").click(function(){
 
@@ -555,6 +557,61 @@ $('.slideJob3').hide();
  	});
 
 
+ 	// ---- JOB 3 SECTION FOR BULLETS
+
+$(".plusJD3B1").click(function(){
+
+ 
+ 		 $("#JD3B2").css("display","block");
+
+ 		 $(".plusJD3B1").css("display","none");
+ 		 $(".plusJD3B2").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD3B2").click(function(){
+
+ 
+ 		 $("#JD3B3").css("display","block");
+
+ 		 $(".plusJD3B2").css("display","none");
+ 		 $(".plusJD3B3").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD3B3").click(function(){
+
+ 
+ 		 $("#JD2B4").css("display","block");
+
+ 		 $(".plusJD3B3").css("display","none");
+ 		 $(".plusJD3B4").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD3B4").click(function(){
+
+ 
+ 		 $("#JD3B5").css("display","block");
+
+ 		 $(".plusJD3B4").css("display","none");
+ 		 $(".plusJD3B5").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plusJD3B5").click(function(){
+
+ 
+ 		 $("#JD3B6").css("display","block");
+
+ 		 $(".plusJD3B5").css("display","none");
+ 	
+
+ 	});
 
 
  	$(".resumeTemplate2").click(function(){

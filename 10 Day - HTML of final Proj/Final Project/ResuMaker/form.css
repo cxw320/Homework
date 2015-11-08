@@ -321,7 +321,14 @@ background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
 .plusJD2B4,
 .plusJD2B5,
 .plusJD2B6,
-.plusJD2B7
+.plusJD2B7,
+.plusJD3B1,
+.plusJD3B2,
+.plusJD3B3,
+.plusJD3B4,
+.plusJD3B5,
+.plusJD3B6,
+.plusJD3B7
  {
 	width: 20%;
 	margin:auto;
@@ -393,7 +400,12 @@ background-image: linear-gradient(to bottom, #EDEDED 0%, #D2D7DF 100%);
 #JD2B3,
 #JD2B4,
 #JD2B5,
-#JD2B6
+#JD2B6,
+#JD3B2,
+#JD3B3,
+#JD3B4,
+#JD3B5,
+#JD3B6
 {
 	display:none;
 }
@@ -409,7 +421,13 @@ background-image: linear-gradient(to bottom, #EDEDED 0%, #D2D7DF 100%);
 .plusJD2B4,
 .plusJD2B5,
 .plusJD2B6,
-.plusJD2B7
+.plusJD2B7,
+.plusJD3B2,
+.plusJD3B3,
+.plusJD3B4,
+.plusJD3B5,
+.plusJD3B6,
+.plusJD3B7
 {
 	display:none;
 }
