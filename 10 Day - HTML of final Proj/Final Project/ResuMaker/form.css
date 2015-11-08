@@ -233,14 +233,31 @@ form {
 
 
 .button {
-	background-color: gray;
-	border:1px solid black;
+	/*border:1px solid black;*/
 	border-radius:15px;
 	width:30%;
 	margin:auto;
 	text-align:center;
 	padding: 5px;
 	font-size: 30px;
+	font-weight:700;
+/* IE10+ */ 
+background-image: -ms-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFE066), color-stop(100, #FFF4AB));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
 }
 
 
@@ -258,9 +275,30 @@ form {
 }
 
 .plus {
-	border: 1px solid black;
-	width: 10%;
+	width: 20%;
 	margin:auto;
+	font-size:15px;
+	text-align:center;
+	border-radius:10px;
+	padding:2px;
+	font-family:Montserrat;
+/* IE10+ */ 
+background-image: -ms-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFE066), color-stop(100, #FFF4AB));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
 
 }
 
