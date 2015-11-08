@@ -297,6 +297,37 @@ $('.slideJob3').hide();
  		$('#JobDesc3B6').text(inputJobDesc3B6);	
  		};
 
+
+
+ 		// EDUCATION SECTION -----
+
+ 		var inputDegree = $('#inputDegree').val();
+ 		console.log(inputDegree);
+ 		if(inputDegree != "") {
+ 		$('#degree').text(inputDegree);	
+ 		};
+
+ 		var inputUndergrad = $('#inputUndergrad').val();
+ 		console.log(inputUndergrad);
+ 		if(inputUndergrad != "") {
+ 		$('#undergrad').text(inputUndergrad);	
+ 		};
+
+
+ 		var inputAward = $('#inputAward').val();
+ 		console.log(inputAward);
+ 		if(inputAward != "") {
+ 		$('#award').text(inputAward);	
+ 		};
+
+ 		var inputAwardDesc = $('#inputAwardDesc').val();
+ 		console.log(inputAwardDesc);
+ 		if(inputAwardDesc != "") {
+ 		$('#awardDesc').text(inputAwardDesc);	
+ 		};
+
+
+
  		// document.getElementById("form-horizontal").reset(); 
  		$("#form-horizontal") [0].reset();
 
@@ -307,18 +338,86 @@ $('.slideJob3').hide();
 
  	$(".plus").click(function(){
 
- 	console.log(document.getElementById("form-group3").style.color);
-
- 	if(document.getElementById("form-group3").style.display=='none'){
- 		 console.log()
+ 	if( $('#form-group3').css('display')=== 'none' &&
+ 	    $('#form-group4').css('display')=== 'none' &&
+ 	    $('#form-group5').css('display')=== 'none' && 
+ 	    $('#form-group6').css('display')=== 'none' && 
+ 	    $('#form-group7').css('display')=== 'none' && 
+ 	    $('#form-group8').css('display')=== 'none'  ){
+ 	
  		 $("#form-group2").css("display","block");
 
+ 		 $(".plus").css("display","none");
+ 		 $(".plus3").css("display","block");
+
  		};
+
  	});
 
- 	// $(".plus").click(function(){
- 	// 	$("#form-group3").css("display","block");
- 	// });
+ 	$(".plus3").click(function(){
+
+ 		 $("#form-group3").css("display","block");
+
+ 		 $(".plus3").css("display","none");
+ 		 $(".plus4").css("display","block");
+
+
+ 	});
+
+ 	$(".plus4").click(function(){
+
+ 	
+ 		 $("#form-group4").css("display","block");
+
+ 		 $(".plus4").css("display","none");
+ 		 $(".plus5").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plus5").click(function(){
+
+ 
+ 		 $("#form-group5").css("display","block");
+
+ 		 $(".plus5").css("display","none");
+ 		 $(".plus6").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plus6").click(function(){
+
+ 	
+ 		 $("#form-group6").css("display","block");
+
+ 		 $(".plus6").css("display","none");
+ 		 $(".plus7").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plus7").click(function(){
+
+ 		 $("#form-group7").css("display","block");
+
+ 		 $(".plus7").css("display","none");
+ 		 $(".plus8").css("display","block");
+ 	
+
+ 	});
+
+ 	$(".plus8").click(function(){
+
+ 	
+ 		 alert(7);
+ 		 $("#form-group8").css("display","block");
+
+ 		 $(".plus8").css("display","none");
+ 		 $(".plus9").css("display","block");
+ 	
+
+ 	});
 
  	$(".resumeTemplate2").click(function(){
  		$(".resume1").attr("class","resume2");

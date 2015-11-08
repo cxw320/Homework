@@ -278,7 +278,7 @@ background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
 	margin-bottom:10px;
 }
 
-.plus {
+.plus, .plus3, .plus4, .plus5, .plus6, .plus7, .plus8 {
 	width: 20%;
 	margin:auto;
 	font-size:15px;
@@ -303,12 +303,63 @@ background-image: -webkit-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
 
 /* W3C Markup */ 
 background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
-
+	display:block;
 }
 
-#form-group2, #form-group3, #form-group4, #form-group5, #form-group6, #form-group7, #form-group8{
-	display:none
+.plus3 {
+	display:none;
 }
+
+.plus4 {
+	display:none;
+}
+
+.plus5 {
+	display:none;
+}
+
+.plus6 {
+	display:none;
+}
+
+.plus7 {
+	display:none;
+}
+
+.plus8 {
+	display:none;
+}
+
+
+
+#form-group2{
+	display:none;
+}
+
+#form-group3{
+	display:none;
+}
+
+#form-group4{
+	display:none;
+}
+
+#form-group5{
+	display:none;
+}
+
+#form-group6{
+	display:none;
+}
+
+#form-group7{
+	display:none;
+}
+
+#form-group8{
+	display:none;
+}
+
 
 
 
