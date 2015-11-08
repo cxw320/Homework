@@ -38,15 +38,13 @@ $(document).ready(function(){
  		// don't submit the form
  		e.preventDefault();
 
- 		// get and store inputName
+ 		// NAME SECTION ---------
  		var inputName = $('#inputName').val();
  		console.log(inputName);
  		if(inputName != "") {
  			$('.resume header h1').text(inputName);
  		};
- 		
 
- 		// get and store inputName
  		var inputJobTitle = $('#inputJobTitle').val();
  		console.log(inputJobTitle);
  		if(inputJobTitle != "") {
@@ -71,6 +69,10 @@ $(document).ready(function(){
  		if(inputAddress != "") {
  		$('#address').text(inputAddress);	
  		};
+
+
+
+ 		 // SKILL SECTION --------
 	 		
     	var inputSkill1 = $('#inputSkill1').val();
  		console.log(inputSkill1);
@@ -121,41 +123,167 @@ $(document).ready(function(){
  		};	
 
 
+ 		// COMPANY 1-------
+
  		var inputCompany1 = $('#inputCompany1').val();
  		console.log(inputCompany1);
  		if(inputCompany1 != "") {
  		$('#company1').text(inputCompany1);	
  		};
+
    		var inputJobTitle1 = $('#inputJobTitle1').val();
- 		console.log(inputJobTitle1);
- 		$('#JobTitle1').text(inputJobTitle1);	
+ 		console.log(inputJobTitle1); 		
+ 		if(inputJobTitle1 != "") {
+ 		$('#JobTitle1').text(inputJobTitle1);		
+ 		};
 
  		var inputJobDesc1B1 = $('#inputJobDesc1B1').val();
  		console.log(inputJobDesc1B1);
+ 		if(inputJobDesc1B1 != "") {
  		$('#JobDesc1B1').text(inputJobDesc1B1 );
+ 		};
 
 
  		var inputJobDesc1B2 = $('#inputJobDesc1B2').val();
  		console.log(inputJobDesc1B2);
+ 		if(inputJobDesc1B2 != "") {
  		$('#JobDesc1B2').text(inputJobDesc1B2 );
+ 		};
 
 
  		var inputJobDesc1B3 = $('#inputJobDesc1B3').val();
  		console.log(inputJobDesc1B3);
+ 		if(inputJobDesc1B3 != "") {
  		$('#JobDesc1B3').text(inputJobDesc1B3);	
+ 		};
 
 
  		var inputJobDesc1B4 = $('#inputJobDesc1B4').val();
  		console.log(inputJobDesc1B4);
- 		$('#JobDesc1B4').text(inputJobDesc1B4);	
+ 		if(inputJobDesc1B4 != "") {
+ 		$('#JobDesc1B4').text(inputJobDesc1B4);
+ 		};	
 
  		var inputJobDesc1B5 = $('#inputJobDesc1B5').val();
  		console.log(inputJobDesc1B5);
+ 		if(inputJobDesc1B5 != "") {
  		$('#JobDesc1B5').text(inputJobDesc1B5);
+ 		};
 
- 		 var inputJobDesc1B6 = $('#inputJobDesc1B6').val();
+ 		var inputJobDesc1B6 = $('#inputJobDesc1B6').val();
  		console.log(inputJobDesc1B6);
+ 		if(inputJobDesc1B6 != "") {
  		$('#JobDesc1B6').text(inputJobDesc1B6);	
+ 		};
+
+
+ 		// COMPANY 2 ----------------
+
+ 		var inputCompany2 = $('#inputCompany2').val();
+ 		console.log(inputCompany2);
+ 		if(inputCompany2 != "") {
+ 		$('#company2').text(inputCompany2);	
+ 		};
+
+   		var inputJobTitle2 = $('#inputJobTitle2').val();
+ 		console.log(inputJobTitle2); 		
+ 		if(inputJobTitle2 != "") {
+ 		$('#JobTitle2').text(inputJobTitle2);		
+ 		};
+
+ 		var inputJobDesc2B1 = $('#inputJobDesc2B1').val();
+ 		console.log(inputJobDesc2B1);
+ 		if(inputJobDesc2B1 != "") {
+ 		$('#JobDesc2B1').text(inputJobDesc2B1 );
+ 		};
+
+
+ 		var inputJobDesc2B2 = $('#inputJobDesc2B2').val();
+ 		console.log(inputJobDesc2B2);
+ 		if(inputJobDesc2B2 != "") {
+ 		$('#JobDesc2B2').text(inputJobDesc2B2 );
+ 		};
+
+
+ 		var inputJobDesc2B3 = $('#inputJobDesc2B3').val();
+ 		console.log(inputJobDesc2B3);
+ 		if(inputJobDesc2B3 != "") {
+ 		$('#JobDesc2B3').text(inputJobDesc2B3);	
+ 		};
+
+
+ 		var inputJobDesc2B4 = $('#inputJobDesc2B4').val();
+ 		console.log(inputJobDesc2B4);
+ 		if(inputJobDesc2B4 != "") {
+ 		$('#JobDesc2B4').text(inputJobDesc2B4);
+ 		};	
+
+ 		var inputJobDesc2B5 = $('#inputJobDesc2B5').val();
+ 		console.log(inputJobDesc2B5);
+ 		if(inputJobDesc2B5 != "") {
+ 		$('#JobDesc2B5').text(inputJobDesc2B5);
+ 		};
+
+ 		var inputJobDesc2B6 = $('#inputJobDesc2B6').val();
+ 		console.log(inputJobDesc2B6);
+ 		if(inputJobDesc2B6 != "") {
+ 		$('#JobDesc2B6').text(inputJobDesc2B6);	
+ 		};
+
+		// COMPANY 3 ----------------
+
+ 		var inputCompany3 = $('#inputCompany3').val();
+ 		console.log(inputCompany3);
+ 		if(inputCompany3 != "") {
+ 		$('#company3').text(inputCompany3);	
+ 		};
+
+   		var inputJobTitle3 = $('#inputJobTitle3').val();
+ 		console.log(inputJobTitle3); 		
+ 		if(inputJobTitle3 != "") {
+ 		$('#JobTitle3').text(inputJobTitle3);		
+ 		};
+
+ 		var inputJobDesc3B1 = $('#inputJobDesc3B1').val();
+ 		console.log(inputJobDesc3B1);
+ 		if(inputJobDesc3B1 != "") {
+ 		$('#JobDesc3B1').text(inputJobDesc3B1 );
+ 		};
+
+
+ 		var inputJobDesc3B2 = $('#inputJobDesc3B2').val();
+ 		console.log(inputJobDesc3B2);
+ 		if(inputJobDesc3B2 != "") {
+ 		$('#JobDesc3B2').text(inputJobDesc3B2 );
+ 		};
+
+
+ 		var inputJobDesc3B3 = $('#inputJobDesc3B3').val();
+ 		console.log(inputJobDesc3B3);
+ 		if(inputJobDesc3B3 != "") {
+ 		$('#JobDesc3B3').text(inputJobDesc3B3);	
+ 		};
+
+
+ 		var inputJobDesc3B4 = $('#inputJobDesc3B4').val();
+ 		console.log(inputJobDesc3B4);
+ 		if(inputJobDesc3B4 != "") {
+ 		$('#JobDesc3B4').text(inputJobDesc3B4);
+ 		};	
+
+ 		var inputJobDesc3B5 = $('#inputJobDesc3B5').val();
+ 		console.log(inputJobDesc3B5);
+ 		if(inputJobDesc3B5 != "") {
+ 		$('#JobDesc3B5').text(inputJobDesc3B5);
+ 		};
+
+ 		var inputJobDesc3B6 = $('#inputJobDesc3B6').val();
+ 		console.log(inputJobDesc3B6);
+ 		if(inputJobDesc3B6 != "") {
+ 		$('#JobDesc3B6').text(inputJobDesc3B6);	
+ 		};
+
+ 		
 
 
  	});
