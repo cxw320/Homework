@@ -1,8 +1,10 @@
 body{
+	background-color:#f5f5f5;
 	
 }
 .container {
 	width: 95%;
+
 
 
 }
@@ -36,7 +38,8 @@ body{
 	width: 780px;
 	margin: auto;
 	margin-top: 4%;
-	background-color: white;
+	background-color:white;
+
 }
 
 .resume1 header {
@@ -237,6 +240,7 @@ form {
 	border-radius:15px;
 	width:30%;
 	margin:auto;
+	margin-top:40px;
 	text-align:center;
 	padding: 5px;
 	font-size: 30px;
@@ -303,7 +307,7 @@ background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
 }
 
 #form-group2, #form-group3, #form-group4, #form-group5, #form-group6, #form-group7, #form-group8{
-	display:none;
+	display:none
 }
 
 
@@ -329,11 +333,102 @@ background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
 }
 
 
+
 .word-export {
-	border:1px solid black;
+	border-radius:15px;
+	width:30%;
+	margin:auto;
+	margin-top:40px;
+	margin-bottom:40px;
+	text-align:center;
+	padding: 5px;
+	font-size: 20px;
+	font-weight:700;
+	font-family:Montserrat;
+
+/* IE10+ */ 
+background-image: -ms-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFE066), color-stop(100, #FFF4AB));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
+
 }
 
+.container2 {
+	width:60%;
+	margin:auto;
+	overflow:auto;
+	margin-top:30px;
+}
 
-/*.slideNameMenu {
-	display:none;
-}*/
+.resumeTemplate1 {
+	float:left;
+	border-radius:15px;
+	width:40%;
+	text-align:center;
+	padding: 5px;
+	font-size: 20px;
+	font-weight:700;
+	font-family:Montserrat;
+
+/* IE10+ */ 
+background-image: -ms-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFE066), color-stop(100, #FFF4AB));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
+
+}
+
+.resumeTemplate2 {
+	float:right;
+	border-radius:15px;
+	width:40%;
+	text-align:center;
+	padding: 5px;
+	font-size: 20px;
+	font-weight:700;
+	font-family:Montserrat;
+
+/* IE10+ */ 
+background-image: -ms-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFE066), color-stop(100, #FFF4AB));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #FFE066 0%, #FFF4AB 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top, #FFE066 0%, #FFF4AB 100%);
+
+}

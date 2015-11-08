@@ -2,9 +2,21 @@ $(document).ready(function(){
 
 
 // SLIDE TOGGLE SECTION
+
+$('.slideNameMenu').hide();
+$('.slideSkillMenu').hide();
+$('.slideExperienceMenu').hide();
+$('.slideEducationMenu').hide();
+$('.slideJob1').hide();
+$('.slideJob2').hide();
+$('.slideJob3').hide();
+
+
+
 	$(".menuLabel1").click(function(){
 		$(".slideNameMenu").slideToggle("slow");
 	});
+	
 
 	$(".menuLabel2").click(function(){
 		$(".slideSkillMenu").slideToggle("slow");
@@ -34,6 +46,8 @@ $(document).ready(function(){
 
 // FORM SECTION
 
+
+
  	$(".button").click(function(e){
  		// don't submit the form
  		e.preventDefault();
@@ -42,13 +56,13 @@ $(document).ready(function(){
  		var inputName = $('#inputName').val();
  		console.log(inputName);
  		if(inputName != "") {
- 			$('.resume header h1').text(inputName);
+ 			$('#name').text(inputName);
  		};
 
  		var inputJobTitle = $('#inputJobTitle').val();
  		console.log(inputJobTitle);
  		if(inputJobTitle != "") {
- 		$('.resume h2').text(inputJobTitle);
+ 		$('#jobTitleHeader').text(inputJobTitle);
 	 	};
 
 
@@ -283,7 +297,8 @@ $(document).ready(function(){
  		$('#JobDesc3B6').text(inputJobDesc3B6);	
  		};
 
- 		
+ 		// document.getElementById("form-horizontal").reset(); 
+ 		$("#form-horizontal") [0].reset();
 
 
  	});
@@ -291,21 +306,34 @@ $(document).ready(function(){
 // PLUS SECTION 
 
  	$(".plus").click(function(){
- 		$("#form-group2").css("display","block");
+
+ 	console.log(document.getElementById("form-group3").style.color);
+
+ 	if(document.getElementById("form-group3").style.display=='none'){
+ 		 console.log()
+ 		 $("#form-group2").css("display","block");
+
+ 		};
  	});
 
- 	$(".plus").click(function(){
- 		$("#form-group3").css("display","block");
- 	});
+ 	// $(".plus").click(function(){
+ 	// 	$("#form-group3").css("display","block");
+ 	// });
 
- 	$(".change").click(function(){
+ 	$(".resumeTemplate2").click(function(){
  		$(".resume1").attr("class","resume2");
  	});
 
+ 	 $(".resumeTemplate1").click(function(){
+ 		$(".resume2").attr("class","resume1");
+ 	});
+
  	$(".word-export").click(function(){
- 		$("#export-content-image").wordExport();
+ 		$("#export-content").wordExport();
 
  	});
+
+
 
 
 

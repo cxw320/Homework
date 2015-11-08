@@ -23,10 +23,11 @@
 
 
 
+
 			
 
 
-		<form class="form-horizontal">
+		<form id="form-horizontal" class="form-horizontal">
 
 		<p class="menuLabel1"> NAME </p>
 
@@ -447,8 +448,8 @@
 	<div class="resume1" id="export-content">
 
 		<header>
-			<h1> Caroline Wang </h1>
-			<h2> Digital Marketing Analyst </h2>
+			<h1 id="name"> Caroline Wang </h1>
+			<h2 id="jobTitleHeader"> Digital Marketing Analyst </h2>
 			<div class="info">
 				<p id="email"> Email: cxw320@case.edu</p>
 				<p id="cell"> Cell: (330)217-5936 </p> 
@@ -541,9 +542,21 @@
 
 		</div>
 
+		<div class="container2">
+			<div class="resumeTemplate1">
+			TEMPLATE 1 : ANALYST
+			</div>
+
+			<div class="resumeTemplate2">
+			TEMPLATE 2 : DESIGNER
+			</div>
+		</div>
 
 
-		<a class="word-export" href="javascript:void(0)"> Export as .doc </a>
+		<div class="word-export" href="javascript:void(0)"> EXPORT </div>
+		
+
+		</div>
 
 
 
@@ -559,19 +572,16 @@
 		<script src="form.js"></script>
 		<script src="FileSaver.js"></script>
 		<script src="jquery.wordexport.js"></script>
-		<script src="domvas.js"></script>
+		<!-- <script src="domvas.js"></script> -->
+
+		<!-- <script src="jspdf.js"></script> -->
 
 		<!-- http://www.jqueryscript.net/other/Export-Html-To-Word-Document-With-Images-Using-jQuery-Word-Export-Plugin.html -->
 
 
-	<canvas id="export-content-image">
-
-	</canvas>
 
 
-	<div class="change">
-		CHANGE FORMAT 
-	</div>
+
 
 
 
