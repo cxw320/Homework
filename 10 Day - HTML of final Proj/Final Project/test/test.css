@@ -1,0 +1,103 @@
+.resume1 {
+	font-family:Radley;
+	border: 1px solid black;
+	width: 780px;
+	margin: auto;
+	margin-top: 4%;
+	background-color:white;
+
+}
+
+.resume1 header {
+	border:1px solid black;
+	width:70%;
+	margin-left:40px;
+	margin-top:30px;
+}
+
+.resume1 header h1 {
+	font-size:60px;
+	padding:0px;
+	margin:20px 0px 0px 0px;
+}
+
+.resume1 header h2 {
+	padding:0px;
+	margin:0px 0px 0px 5px;
+}
+
+.resume1 header .info {
+	border:1px solid black;
+	width:38%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	margin-top:20px;
+}
+
+.resume1 header .info p{
+	padding:0px;
+	margin:0px;
+}
+
+.resume1 .skills {
+	border:1px solid black;
+	float:right;
+	padding:0px;
+	width:49%;
+	margin-right:5%;
+}
+
+.resume1 .skills .column1{
+	float:left;
+	width:50%;
+}
+
+.resume1 .skills .column2 {
+	float:right;
+}
+
+.resume1 .experience {
+	border:1px solid black;
+	width:90%;
+	margin:auto;
+}
+
+.resume1 .experience h1 {
+	margin-top:162px;
+	font-size:30px;
+	width:99%;
+	overflow:auto;
+
+	margin:auto;
+}
+
+.resume1 #company1, 
+.resume1 #company2,
+.resume1 #company3
+{
+	font-weight:700;
+}
+
+.resume1 .company p, .resume1 .company li {
+	margin:0px;
+	padding:0px;
+}
+
+.resume1 footer {
+	width:90%;
+	margin:auto;
+}
+
+.resume1 footer .college p, footer .award p{
+	padding:0px;
+	margin:0px;
+}
+
+.resume1 footer .college{
+	margin-bottom:20px;
+}
+
+.resume1 footer .award{
+	margin-bottom:70px;
+}

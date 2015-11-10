@@ -138,6 +138,123 @@ body{
 	margin-bottom: 30px;
 }
 
+/*RESUME 2 CSS*/
+
+.resume2 {
+	font-family:Montserrat;
+	width: 780px;
+	margin: auto;
+	margin-top: 4%;
+	background-color:white;
+	border:1px solid black;
+
+}
+
+.resume2 header {
+	width:70%;
+	margin-left:40px;
+	margin-top:30px;
+}
+
+.resume2 header h1 {
+	font-size:50px;
+	padding:0px;
+	margin:20px 0px 0px 0px;
+	color:#F25F5C;
+}
+
+.resume2 header h2 {
+	padding:0px;
+	margin:0px 0px 0px 5px;
+}
+
+.resume2 header .info {
+	width:38%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	margin-top:20px;
+}
+
+.resume2 header .info p{
+	padding:0px;
+	margin:0px;
+}
+
+.resume2 .skills {
+	float:right;
+	padding:0px;
+	width:55%;
+	margin-right:5%;
+}
+
+.resume2 .skills h2{
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-weight:700;
+}
+
+
+
+.resume2 .skills .column1{
+	float:left;
+	width:50%;
+}
+
+.resume2 .skills .column2 {
+	float:right;
+}
+
+.resume2 .experience {
+	width:90%;
+	margin:auto;
+	margin-top:30px;
+}
+
+.resume2 .experience h1 {
+	margin-top:192px;
+	font-size:20px;
+	width:99%;
+	overflow:auto;
+	font-weight:700;
+	margin:auto;
+}
+
+.resume2 #company1, 
+.resume2 #company2,
+.resume2 #company3
+{
+	font-weight:700;
+}
+
+.resume2 .company p, .resume1 .company li {
+	margin:0px;
+	padding:0px;
+}
+
+.resume2 footer {
+	width:90%;
+	margin:auto;
+}
+
+.resume2 footer .college p, footer .award p{
+	padding:0px;
+	margin:0px;
+}
+
+.resume2 footer .college{
+	margin-bottom:20px;
+}
+
+.resume2 footer .award{
+	margin-bottom:70px;
+}
+
+.resume2 footer .title{
+	font-size:20px;
+	font-weight:700;
+}
 /*.menu {
 	border: 1px solid black;
 	margin: auto;
@@ -447,14 +564,6 @@ background-image: linear-gradient(to bottom, #EDEDED 0%, #D2D7DF 100%);
 
 
 
-.resume2 {
-	font-family:Radley;
-	border: 1px solid black;
-	width: 780px;
-	margin: auto;
-	margin-top: 4%;
-	background-color: red;
-}
 
 
 
